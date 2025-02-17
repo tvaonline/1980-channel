@@ -19,7 +19,6 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-
 }
 
 /* Cabeçalho */
@@ -83,8 +82,6 @@ video {
     height: auto;
     border-radius: 10px;
 }
-
-
 
 /* Canal */
 .channel-header {
@@ -307,4 +304,3 @@ video {
     margin: 0;
     font-size: 14px;
 }
-
