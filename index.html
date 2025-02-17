@@ -129,7 +129,8 @@
             height: 120px;
             border: 2px solid transparent;
             transition: filter 0.3s, border-color 0.3s;
-			margin: 8px; /* Adiciona 10px de margem ao redor de cada link de imagem */
+			margin: 8px;
+			flex: 0 1 auto;/* Adiciona 10px de margem ao redor de cada link de imagem */
 
         }
 
@@ -145,10 +146,9 @@
 
         }
 		
-		 /* Ajuste específico para dispositivos móveis */
-        @media (max-width: 768px) {
+		 @media (max-width: 768px) {
             .canais-tvaonline {
-                flex-direction: column;
+                justify-content: center;
 			}
 		
 		
