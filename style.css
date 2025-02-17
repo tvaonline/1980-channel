@@ -67,7 +67,7 @@ body {
 .player-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 699px;
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -108,8 +108,8 @@ video {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 800px;
-    margin-top: -12px;
+    max-width: 700px;
+    margin-top: 3px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -304,3 +304,4 @@ video {
     margin: 0;
     font-size: 14px;
 }
+
